@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import { group46img, moptro } from "../images";
 import { HiHome } from "react-icons/hi2";
 import { MdManageAccounts } from "react-icons/md";
@@ -9,10 +9,6 @@ const HomePage = () => {
   const searchRef = useRef(null);
   const [employee, setEmployee] = useState(false);
   const [empData, setEmpData] = useState(Employees);
-
-  //   useEffect(() => {
-  //     setEmployee(Employees.map((emp) => emp));
-  //   }, []);
 
   const handleHome = () => {
     setEmployee(false);
