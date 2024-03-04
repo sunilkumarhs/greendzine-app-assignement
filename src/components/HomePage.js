@@ -52,7 +52,7 @@ const HomePage = () => {
           <div
             className={`${
               employee ? "hidden" : "flex"
-            } justify-center dashCard w-full`}
+            } justify-center dashCard w-full lg:pb-16 pb-8`}
           >
             <div className="w-full">
               <button className="w-full dashTitle  text-[#FFFFFFB3] rounded-full">
@@ -61,7 +61,7 @@ const HomePage = () => {
                 </p>
               </button>
               <div className="py-6"></div>
-              <div className="flex justify-around py-">
+              <div className="flex justify-around">
                 <p className="text-[#FFFFFFB3]">Productivity on Monday</p>
                 <p className="text-[#36A546]">4%</p>
               </div>
@@ -69,7 +69,7 @@ const HomePage = () => {
                 <button className="rounded-full w-[2%] py-2 proBar"></button>
               </div>
               <div className="py-3"></div>
-              <div className="flex justify-around py-">
+              <div className="flex justify-around">
                 <p className="text-[#FFFFFFB3]">Productivity on Tuesday</p>
                 <p className="text-[#36A546]">92%</p>
               </div>
@@ -77,7 +77,7 @@ const HomePage = () => {
                 <button className="rounded-full w-[46%] py-2 proBar"></button>
               </div>
               <div className="py-3"></div>
-              <div className="flex justify-around py-">
+              <div className="flex justify-around">
                 <p className="text-[#FFFFFFB3]">Productivity on Wednesday</p>
                 <p className="text-[#36A546]">122%</p>
               </div>
@@ -85,7 +85,7 @@ const HomePage = () => {
                 <button className="rounded-full w-[61%] py-2 proBar"></button>
               </div>
               <div className="py-3"></div>
-              <div className="flex justify-around py-">
+              <div className="flex justify-around">
                 <p className="text-[#FFFFFFB3]">Productivity on Thursday</p>
                 <p className="text-[#36A546]">93%</p>
               </div>
@@ -93,7 +93,7 @@ const HomePage = () => {
                 <button className="rounded-full w-[47%] py-2 proBar"></button>
               </div>
               <div className="py-3"></div>
-              <div className="flex justify-around py-">
+              <div className="flex justify-around">
                 <p className="text-[#FFFFFFB3]">Productivity on Friday</p>
                 <p className="text-[#36A546]">89%</p>
               </div>
@@ -101,7 +101,7 @@ const HomePage = () => {
                 <button className="rounded-full w-[44%] py-2 proBar"></button>
               </div>
               <div className="py-3"></div>
-              <div className="flex justify-around py-">
+              <div className="flex justify-around">
                 <p className="text-[#FFFFFFB3]">Productivity on Saturday</p>
                 <p className="text-[#36A546]">98%</p>
               </div>
