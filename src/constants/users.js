@@ -1,7 +1,7 @@
 export const Users = [
   {
-    eMail: "sunil@1718.com",
-    pass: "sunil@1718",
+    eMail: "sunil@mail.com",
+    pass: "sunil",
   },
   {
     eMail: "admin@mail.com",
